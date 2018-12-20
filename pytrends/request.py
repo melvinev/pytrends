@@ -3,7 +3,7 @@ from __future__ import absolute_import, print_function, unicode_literals
 import json
 import sys
 
-from pandas.io.json.normalize import nested_to_record
+from pandas.io.json import nested_to_record 
 import pandas as pd
 import requests
 
